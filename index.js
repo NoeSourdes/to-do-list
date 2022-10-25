@@ -12,6 +12,7 @@ function ajout(){
     paragraph.innerHTML = inputText.value
     paragraph.classList.add('style_para');
     toDoList.appendChild(paragraph)
+    inputText.value = ""
 
     paragraph.addEventListener('click', () => {
         paragraph.classList.add('click_para')
